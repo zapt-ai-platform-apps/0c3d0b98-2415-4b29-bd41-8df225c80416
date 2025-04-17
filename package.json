@@ -1,7 +1,7 @@
 {
-    "name": "reactjs-vite-tailwind-vercel",
+    "name": "multi-party-platform",
     "version": "1.0.0",
-    "description": "ReactJS app with Vite, Tailwind",
+    "description": "Multi-party platform for clients, merchants, investors, transport stations and service providers",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -10,9 +10,21 @@
         "start": "vite --host"
     },
     "dependencies": {
+        "@headlessui/react": "^1.7.18",
+        "@heroicons/react": "^2.1.1",
         "@sentry/browser": "^8.41.0",
+        "@sentry/node": "^8.54.0",
+        "@supabase/auth-ui-react": "^0.4.7",
+        "@supabase/auth-ui-shared": "^0.1.8",
+        "@zapt/zapt-js": "^1.0.23",
+        "clsx": "^2.1.0",
+        "drizzle-orm": "^0.33.0",
+        "i18next": "^23.10.1",
+        "postgres": "^3.4.5",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "react-i18next": "^14.1.0",
+        "react-router-dom": "^6.22.3"
     },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.3.4",
